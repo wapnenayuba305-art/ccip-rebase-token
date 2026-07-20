@@ -1,0 +1,11 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+remappings = [
+    '@openzeppelin/contracts@5.3.0/=lib/openzeppelin-contracts/contracts/',
+    '@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/',
+    '@openzeppelin/contracts@4.8.3/=lib/openzeppelin-contracts-4.8.3/contracts/',
+    '@ccip/contracts/=lib/chainlink-ccip/chains/evm/contracts/',
+    '@chainlink/contracts/=lib/chainlink-evm/contracts/',
+]
